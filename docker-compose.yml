@@ -1,7 +1,7 @@
 version: "3"
 services:
   web:
-    image: evina08/hello-react:latest
+    image: evina08/docker-react:latest
     container_name: web
     restart: unless-stopped
     ports:
